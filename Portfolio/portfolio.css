@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Home{
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(226, 165, 203);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 26px;
+}
+ul li{
+    margin: 15px;
+    list-style: none;
+    font-size: 25px;
+   font-family:monospace;
+   font-weight: bold;
+}
+
+ul li a{
+color: black;
+text-decoration: none;
+}
+.bg{
+    height: 80px;
+    width: 100px;
+}
+.background-img{
+    background-image:linear-gradient(rgba(236, 196, 196, 0.411),rgba(230, 154, 186, 0.349)),url(https://png.pngtree.com/thumb_back/fh260/background/20210713/pngtree-edgy-creal-modern-portfolio-image_738934.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    
+}
+.headingtext{
+    height: 90vh;
+    width: 90wh;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   flex-direction: column;
+
+}
+.heading{
+    font-size: 55px;   
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgb(219, 68, 68); 
+    font-weight: bold;
+    margin-top: 90px;
+    margin-right: 33px;
+    width: 100vh;
+
+}
+.text{
+    font-weight: bold;
+    font-size: 60PX;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.midheading{
+    font-size: 30px;   
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgb(136, 108, 100); 
+    font-weight: bold;
+    margin-top: 15px;
+    width: 100vh;
+}
+
+button:hover{
+    color: blanchedalmond;
+    background-color: rgba(2, 19, 2, 0.404);
+}
+   .arrow-container {
+      display: flex;
+      align-items: center;
+      margin-right: 600px;
+      margin-top: 15px;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .right-arrow
+   {
+      width: 0;
+      height: 0;
+      margin: 5px;
+   }
+   .right-arrow
+   {
+      border-top: 18px solid transparent;
+      border-bottom: 18px solid transparent;
+   }
+
+   .right-arrow {
+      border-left: 25px solid #0c0c0c;
+   }
+   .arrow-move {
+      position: relative;
+      animation: move 2s ease-in-out infinite;
+   }
+ 
+
+.bg-img{
+    background-image:url(https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?t=st=1724483684~exp=1724487284~hmac=978ace27a30a3ba5ff9747d553b71b4e52beafbc6a609d83cd3f9be78ed07b22&w=826); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 95vh;
+    
+}
+.imgs{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-top: 350px;
+    padding-right:200px ;
+    width: auto;
+}
+.midheadings{
+    font-size: 30px;   
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgb(233, 231, 230); 
+    font-weight: bold;
+   padding-left: 25px;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -140px;
+}
+
+
+.service{
+    background-color: rgb(240, 243, 237);
+    height:75vh;
+    padding:30px;
+    padding-left: 10px;
+    justify-content: space-around;
+  
+    
+}
+.serviceheading{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    
+}
+.cardimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out; 
+    /* accessing the parentn element  and giving the hover property to it */
+
+}
+.card:hover .cardimg img{
+    transform: scale(1.1);
+}
+
+.cardimg{
+    height: 230px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+    /* padding-inline: 10px; */
+}
+.servicebox{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+.textoverlay{
+    height: 230px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+   
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+
+}
+
+
+/* ------------------------------logo of insta fb and linkedin----------------------- */
+.imgss{
+    padding-top: 30px;
+    margin-left: -500px;
+    
+  }
+  .card{
+    position: relative;
+}
+
+/* ---------------------------------------- projects ------------------------------ */
+
+
+#projects {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(209, 187, 230);
+}
+
+#projects h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project {
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h2 {
+    margin-top: 0;
+    color: #0073e6;
+}
+
+.description {
+    color: #666;
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.technologies {
+    list-style-type: none;
+    padding: 0;
+}
+
+.technologies li {
+    display: inline-block;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 17px;
+    height: 30px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #005bb5;
+}
+.footertext{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
